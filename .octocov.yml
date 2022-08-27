@@ -1,7 +1,7 @@
 # .octocov.yml Go example
 coverage:
   paths:
-    - path/to/coverage.out
+    - coverage.out
 codeToTestRatio:
   code:
     - '**/*.go'
