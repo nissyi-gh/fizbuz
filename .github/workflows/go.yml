@@ -22,7 +22,7 @@ jobs:
       run: go build -v ./...
 
     - name: Run tests with coverage report output
-      run: go test -v ./...　-coverprofile=coverage.out -covermode=count
+      run: go test -v ./... -coverprofile=coverage.out -covermode=count
 
     - name: coverage report
       uses: k1LoW/octocov-action@v0
